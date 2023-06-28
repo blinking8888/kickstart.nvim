@@ -433,7 +433,11 @@ local servers = {
   -- clangd = {},
   -- gopls = {},
   -- pyright = {},
-  -- rust_analyzer = {},
+  -- rust_analyzer = {
+  --   cmd = {
+  --     "rustup", "run", "stable", "rust-analyzer",
+  --   }
+  -- },
   -- tsserver = {},
 
   lua_ls = {
