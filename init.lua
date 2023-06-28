@@ -196,6 +196,8 @@ require('lazy').setup({
   --       Uncomment any of the lines below to enable them.
   -- require 'kickstart.plugins.autoformat',
   -- require 'kickstart.plugins.debug',
+  -- require 'kickstart.plugins.catpuccin',
+  -- require 'kickstart.plugins.codeium',
 
   -- NOTE: The import below automatically adds your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    You can use this folder to prevent any conflicts with this init.lua if you're interested in keeping
@@ -506,6 +508,7 @@ cmp.setup {
     end, { 'i', 's' }),
   },
   sources = {
+    -- { name = 'codeium' },
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
   },
