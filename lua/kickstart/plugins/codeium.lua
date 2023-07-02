@@ -1,5 +1,6 @@
 return {
 	"jcdickinson/codeium.nvim",
+	dir = "/home/s2r/opensource/codeium.nvim",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
 		"hrsh7th/nvim-cmp",
