@@ -528,9 +528,9 @@ cmp.setup {
 }
 
 -- Additional keymaps for buffer navigation
-vim.keymap.set('n', '<leader>n', ':bnext<CR>', { desc = '[N]ext buffer' })
-vim.keymap.set('n', '<leader>p', ':bprev<CR>', { desc = '[P]revious buffer' })
-vim.keymap.set('n', '<C-q>', ':bclose<CR>', { silent = true })
+vim.keymap.set('n', '<C-j>', ':bnext<CR>', { silent = true })
+vim.keymap.set('n', '<C-k>', ':bprev<CR>', { silent = true })
+vim.keymap.set('n', '<C-q>', ':close<CR>', { silent = true })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
