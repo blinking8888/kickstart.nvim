@@ -553,6 +553,8 @@ cmp.setup {
 vim.keymap.set('n', '<C-j>', ':bnext<CR>', { silent = true })
 vim.keymap.set('n', '<C-k>', ':bprev<CR>', { silent = true })
 vim.keymap.set('n', '<C-q>', ':close<CR>', { silent = true })
+vim.keymap.set({ 'n', 'v' }, '<Leader>P', '\"_dP',
+  { silent = true, desc = 'Paste without modifying the default register value' })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
