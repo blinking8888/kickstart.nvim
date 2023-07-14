@@ -216,8 +216,7 @@ require('lazy').setup({
   -- require 'kickstart.plugins.debug',
   require 'kickstart.plugins.catpuccin',
   -- require 'kickstart.plugins.codeium',
-  -- require 'kickstart.plugins.copilot-cmp',
-  -- require 'kickstart.plugins.copilot',
+  require 'kickstart.plugins.gutentags',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    You can use this folder to prevent any conflicts with this init.lua if you're interested in keeping
@@ -456,7 +455,7 @@ end
 --  Add any additional override configuration in the following tables. They will be passed to
 --  the `settings` field of the server config. You must look up that documentation yourself.
 local servers = {
-  clangd = {},
+  -- clangd = {},
   -- gopls = {},
   -- pyright = {},
   rust_analyzer = {
