@@ -217,6 +217,7 @@ require('lazy').setup({
   require 'kickstart.plugins.catpuccin',
   -- require 'kickstart.plugins.codeium',
   require 'kickstart.plugins.gutentags',
+  require 'kickstart.plugins.clang-format',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    You can use this folder to prevent any conflicts with this init.lua if you're interested in keeping
